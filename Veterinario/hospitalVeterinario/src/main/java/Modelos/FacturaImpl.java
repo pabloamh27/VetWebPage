@@ -10,6 +10,7 @@ en esta clase se almacena lo que toda factura tiene: fecha y productos comprados
  */
 public class FacturaImpl{
 
+    //Constructor
     LocalDate fecha;
     ProductoCompradoImpl productos;
 
@@ -18,6 +19,7 @@ public class FacturaImpl{
         this.productos = productos;
     }
 
+    // Sets y gets
     public LocalDate getFecha() {
         return fecha;
     }

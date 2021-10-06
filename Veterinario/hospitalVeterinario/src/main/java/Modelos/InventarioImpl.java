@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
-    clase de implementacion de la clase Inventario
+    Clase de implementacion de la interfaz Inventario
 
 
     contiene un HashMap donde se van a almacenar los productos del sistema. la clase tiene funciones para consultar, agregar, modificar y elimnar un producto
@@ -17,9 +17,11 @@ import java.util.Map;
 
  */
 public class InventarioImpl implements Inventario {
+
+    //Constructor
     Map<Integer,ProductoImpl> productos = new HashMap<Integer, ProductoImpl>();
 
-
+    //Implementa todas las funciones de la interfaz inventario
     @Override
     public ProductoImpl buscarProducto(int id) {
         return productos.get(id);

@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Form {
 
+    //Constructor
     int cedulaDuenio;
     List<String> infoDuenio;
     int cedulaVeterinario;
@@ -26,6 +27,8 @@ public class Form {
     String fecha;
     String descripcion;
 
+
+    //Definicion de todos los gets y sets que se van a usar en el programa.
     public String getDescripcion() {
         return descripcion;
     }

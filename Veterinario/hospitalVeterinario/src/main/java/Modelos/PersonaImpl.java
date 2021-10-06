@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class PersonaImpl{
 
+    //Constructor
     protected Integer cedula;
     protected String nombre;
     protected String ap1;
@@ -25,6 +26,7 @@ public class PersonaImpl{
         this.telefono = telefono;
     }
 
+    // Sets y gets
     public Integer getCedula() {
         return cedula;
     }

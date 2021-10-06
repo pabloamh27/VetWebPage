@@ -7,6 +7,8 @@ import java.time.LocalDate;
     y el producto que se compro
  */
 public class ProductoCompradoImpl {
+
+    //Constructor
     int id;
     LocalDate fecha;
     ProductoImpl producto;
@@ -19,6 +21,7 @@ public class ProductoCompradoImpl {
         this.cantidad = cantidad;
     }
 
+    // Sets y gets
     public int getId() {
         return id;
     }

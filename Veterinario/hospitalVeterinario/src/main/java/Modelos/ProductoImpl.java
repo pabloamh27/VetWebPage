@@ -14,6 +14,7 @@ import java.util.List;
  */
 public class ProductoImpl {
 
+    //Constructor
     private int id;
     private String nombre;
     private String descripcion;
@@ -26,6 +27,7 @@ public class ProductoImpl {
         this.cantidad = cantidad;
     }
 
+    // Sets y gets
     public List<String> getInformacionProducto(){
         List<String> informacionProducto = new ArrayList<>();
         informacionProducto.add("id: "+id);

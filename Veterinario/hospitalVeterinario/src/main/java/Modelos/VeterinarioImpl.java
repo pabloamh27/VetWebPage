@@ -9,6 +9,8 @@ import java.util.*;
     
  */
 public class VeterinarioImpl extends PersonaImpl {
+
+    //Constructor
     String horarioAtencion;
     String especialidad;
 
@@ -30,6 +32,7 @@ public class VeterinarioImpl extends PersonaImpl {
         return informacion;
     }
 
+    // Sets y gets
     public String getHorarioAtencion() {
         return horarioAtencion;
     }

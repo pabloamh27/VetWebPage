@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 /*
 
-    contiene un HashMap donde se van a almacenar los veterinarios del sistema. la clase tiene funciones para consultar, agregar, modificar y elimnar un veterinario
+    Contiene un HashMap donde se van a almacenar los veterinarios del sistema. la clase tiene funciones para consultar, agregar, modificar y elimnar un veterinario
     (la funcion agregarVeterinario puede servir para modificar ya que el mapa sobreescribe el id)
     tambien cuenta con una funcion para imprimir todos los veterinarios del sistema
 

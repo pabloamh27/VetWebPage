@@ -17,7 +17,6 @@ import java.util.Map;
     Esta clase es el controlador de la administracion del sistema
     tiene todas las funciones que involucran a la tienda.
     puede consultar, modificar, eliminar, insertar entidades del sistema.
-
  */
 @Controller
 public class AdministradorController {

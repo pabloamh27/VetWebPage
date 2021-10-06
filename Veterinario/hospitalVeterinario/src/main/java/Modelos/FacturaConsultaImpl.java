@@ -13,6 +13,7 @@ import java.util.List;
  */
 public class FacturaConsultaImpl extends FacturaImpl{
 
+    //Constructor
     int idFactura;
     String servicio;
 
@@ -21,7 +22,7 @@ public class FacturaConsultaImpl extends FacturaImpl{
         this.idFactura = idFactura;
         this.servicio = servicio;
     }
-
+    // Sets y gets
     public int getIdFactura() {
         return idFactura;
     }

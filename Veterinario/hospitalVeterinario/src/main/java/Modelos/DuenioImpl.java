@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class DuenioImpl extends PersonaImpl{
 
+    //Constructor
     Map<Integer, MascotaImpl> mascotas = new HashMap<Integer, MascotaImpl>();
     List<FacturaImpl> facturas = new ArrayList<>();
     List<FacturaConsultaImpl> facturasConsulta = new ArrayList<>();
@@ -20,14 +21,14 @@ public class DuenioImpl extends PersonaImpl{
     }
 
     /*
-        Recibe una factura de tipo consulta medica para ingresarla en la estructura de facturas de consulta del duenio
+        Recibe una factura de tipo consulta medica para ingresarla en la estructura de facturas de consulta del dueño
      */
     public void agregarFacturaConsulta(FacturaConsultaImpl factura){
         facturasConsulta.add(factura);
     }
 
     /*
-        Recibe una factura de tipo compra en la tienda para ingresarla en la estructura de facturas de tienda del duenio
+        Recibe una factura de tipo compra en la tienda para ingresarla en la estructura de facturas de tienda del dño
      */
     public void agregarFacturaTienda(FacturaTiendaImpl factura){
         facturasTienda.add(factura);
@@ -63,6 +64,7 @@ public class DuenioImpl extends PersonaImpl{
         return informacion;
     }
 
+    // Sets y gets
     public Map<Integer, MascotaImpl> getMascotas() {
         return mascotas;
     }

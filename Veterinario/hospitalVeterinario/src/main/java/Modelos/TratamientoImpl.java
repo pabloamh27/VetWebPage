@@ -7,6 +7,8 @@ import java.util.Date;
     clase que representa un tratamiento recomendado por un veterinario
  */
 public class TratamientoImpl {
+
+    //Constructor
     private int id;
     private LocalDate fecha;
     private String descripcion;
@@ -22,6 +24,7 @@ public class TratamientoImpl {
         this.medicamento = medicamento;
     }
 
+    // Sets y gets
     public int getId() {
         return id;
     }

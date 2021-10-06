@@ -10,6 +10,7 @@ import java.util.Date;
  */
 public class MascotaImpl {
 
+    //Constructor
     int id;
     String tipo;
     String nombre;
@@ -24,6 +25,7 @@ public class MascotaImpl {
         expediente = new ExpedienteImpl();
     }
 
+    // Sets y gets
     public int getId() {
         return id;
     }
@@ -65,7 +67,7 @@ public class MascotaImpl {
     }
 
     /*
-        devuelve un String con la informacion de la mascota
+        Devuelve un String con la informacion de la mascota
 
      */
     public String getInformacionMascota(){

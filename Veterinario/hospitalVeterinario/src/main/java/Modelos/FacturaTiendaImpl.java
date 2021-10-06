@@ -13,6 +13,8 @@ import java.util.List;
 
  */
 public class FacturaTiendaImpl extends FacturaImpl{
+
+    //Constructor
     int id;
     public FacturaTiendaImpl(int id, LocalDate fecha, ProductoCompradoImpl productos) {
 
@@ -20,6 +22,7 @@ public class FacturaTiendaImpl extends FacturaImpl{
         this.id = id;
     }
 
+    // Sets y gets
     public List<String> getFactura(){
         List<String> lista = new ArrayList<>();
         lista.add("Id Factura: "+id);

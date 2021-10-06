@@ -9,6 +9,7 @@ import java.util.ArrayList;
  */
 public class ExpedienteImpl implements  Expediente{
 
+    //Constructor
     ArrayList<TratamientoImpl> tratamientos;
     ArrayList<ProductoCompradoImpl> productosComprados;
 
@@ -17,6 +18,7 @@ public class ExpedienteImpl implements  Expediente{
         this.productosComprados = new ArrayList<ProductoCompradoImpl>();
     }
 
+    //Funciones importadas de expediente
     @Override
     public void agregarTratamiento(TratamientoImpl tratamiento) {
         tratamientos.add(tratamiento);
@@ -26,7 +28,7 @@ public class ExpedienteImpl implements  Expediente{
     public void agregarProductoComprado(ProductoCompradoImpl productoComprado) {
         productosComprados.add(productoComprado);
     }
-
+    // Sets y gets
     public ArrayList<TratamientoImpl> getTratamientos() {
         return tratamientos;
     }
